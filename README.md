@@ -1,4 +1,4 @@
-# Bitcoin Network Information Tool 🪙 
+# Bitcoin Network Information Tool
 
 A Java-based application that connects to a Bitcoin node to provide detailed information about the Bitcoin network. With this tool, you can search for specific blocks and transactions, view network statistics, and much more.
 
@@ -23,8 +23,10 @@ A Java-based application that connects to a Bitcoin node to provide detailed inf
 
 6. 🔗 **Display Node Connected Information**  
    Check details about the node you're connected to, including peer connections and version.
+<br>
 
 ---
+
 
 ## 🛠️ Installation
 
@@ -33,16 +35,23 @@ A Java-based application that connects to a Bitcoin node to provide detailed inf
    git clone https://github.com/your-username/bitcoin-network-info.git
    cd bitcoin-network-info
 
+<br>
+
 ---
+
 
 ## ⚙️ Node Configuration
 
+
 To enable the program to retrieve information from the Bitcoin network, you need to configure the Bitcoin Node connection:
 
-1. Open the 'BlockchainManager.java' file and update the following variables with your Bitcoin node's credentials:
-	```private static final String user = "your_user";
-private static final String password = "your_password";
-private static final String host = "your_node_host";
-private static final String port = "8332";```
+1. Open the `BlockchainManager.java` file and update the following variables with your Bitcoin node's credentials:
+   <br>
+   
+	```java
+	private static final String user = "your_user";
+	private static final String password = "your_password";
+	private static final String host = "your_node_host";
+	private static final String port = "8332";
 
 **Important**: The Bitcoin node you connect do must support JSON-RPC connections.
