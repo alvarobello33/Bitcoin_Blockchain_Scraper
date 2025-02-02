@@ -1,4 +1,4 @@
-# 🪙 Bitcoin Network Information Tool
+# Bitcoin Network Information Tool 🪙 
 
 A Java-based application that connects to a Bitcoin node to provide detailed information about the Bitcoin network. With this tool, you can search for specific blocks and transactions, view network statistics, and much more.
 
