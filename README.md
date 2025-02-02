@@ -34,8 +34,8 @@ A Java-based application that connects to a Bitcoin node to provide detailed inf
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/bitcoin-network-info.git
-   cd bitcoin-network-info
+   git clone https://github.com/alvarobello33/Bitcoin_Blockchain_Scraper.git
+   cd Bitcoin_Blockchain_Scraper
 
 <br>
 
@@ -43,7 +43,6 @@ A Java-based application that connects to a Bitcoin node to provide detailed inf
 
 
 ## ⚙️ Node Configuration
-
 
 To enable the program to retrieve information from the Bitcoin network, you need to configure the Bitcoin Node connection:
 
