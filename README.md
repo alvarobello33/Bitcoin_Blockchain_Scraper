@@ -2,6 +2,8 @@
 
 A Java-based application that connects to a Bitcoin node to provide detailed information about the Bitcoin network. With this tool, you can search for specific blocks and transactions, view network statistics, and much more.
 
+**Important**: In order to use the Features of this application, you will need to use a Bitcoin Node connection.
+
 <br>
 
 ---
@@ -56,3 +58,4 @@ To enable the program to retrieve information from the Bitcoin network, you need
 	private static final String port = "8332";
 
 **Important**: The Bitcoin node you connect do must support JSON-RPC connections.
+
